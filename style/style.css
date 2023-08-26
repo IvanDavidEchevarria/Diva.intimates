@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* ESTILO Y DECORACION DE LA CABECERA Y NAVBAR */
+/* ESTILO Y COLORES DE LA CABECERA Y NAVBAR */
 .cabecera-pagina {
     background-color: #fbefe3;
     font-family: 'Lora', serif;
@@ -37,23 +37,21 @@
     border-top: 1px solid #d8d9d8;
     border-bottom: 1px solid #d8d9d8;
     font-size: medium;
+    align-items: center;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
+    font-weight: 600;
 }
 
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.login input:focus {
+    background-color: #d8d9d8;
 }
 
 .nav-bar ul {
     display: flex;
     list-style-type: none;
-}
-
-.login {
-    margin-right: 20px;
-    font-weight: 600;
+    justify-content: center;
 }
 
 .nav-bar li {
@@ -63,7 +61,7 @@
 .nav-bar li a {
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    text-align: center;
 }
 
 .nav-bar li a:hover {
