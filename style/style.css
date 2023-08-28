@@ -51,6 +51,7 @@
     .nav-bar {
         font-size: 10px;
         justify-content: center;
+        flex-wrap: wrap
     }
     .header-container-texto {
         display: none;
