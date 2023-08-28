@@ -46,6 +46,24 @@
     font-weight: 600;
 }
 
+@media (max-width : 768px) {
+    .header-container form { display: none;}
+    .nav-bar {
+        font-size: 10px;
+        justify-content: center;
+    }
+    .header-container-texto {
+        display: none;
+    }
+
+    #footer-container {
+        font-size: medium;
+    }
+
+}
+
+
+
 .login input:focus {
     background-color: #fbefe3;
 }
